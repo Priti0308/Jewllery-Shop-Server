@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const Customer = require('../models/Customer');
 
 exports.getCustomers = async (req, res) => {

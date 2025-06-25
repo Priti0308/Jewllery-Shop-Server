@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const Sale = require('../models/Sale');
 exports.recordSale = async (req, res) => {
   const session = await Product.startSession();

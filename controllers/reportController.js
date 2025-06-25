@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const Sale = require('../models/Sale');
 const Product = require('../models/Product');
 
